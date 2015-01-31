@@ -25,36 +25,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:hint="@string/first_name"
+        android:hint="@string/name"
         android:ems="10"
         android:gravity="center"
-        android:id="@+id/first_name"
-        android:textColor="#0045AE"
+        android:id="@+id/name"
         android:textStyle="italic"
-        android:background="#C3F0FF"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:textSize="20sp"
         android:layout_below="@+id/loginTitle"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textSize="20dp" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:hint="@string/last_name"
-        android:ems="10"
-        android:gravity="center"
-        android:id="@+id/last_name"
-        android:textStyle="italic"
-        android:layout_below="@+id/first_name"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="51dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textSize="20dp" />
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -66,9 +44,8 @@
         android:textColor="#050589"
         android:text="@string/add_no"
         android:id="@+id/editText2"
-        android:layout_below="@+id/last_name"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="61dp" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -77,15 +54,14 @@
         android:ems="10"
         android:hint="@string/phone_no"
         android:id="@+id/editText3"
-        android:layout_marginTop="49dp"
         android:textSize="20dp"
         android:gravity="center"
         android:textStyle="italic"
         android:layout_below="@+id/editText2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
 
     <Button
         android:layout_width="wrap_content"
@@ -93,11 +69,11 @@
         android:text="@string/enter"
         android:id="@+id/button2"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/editText3"
-        android:layout_alignEnd="@+id/editText3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textColor="#050589"/>
+        android:textColor="#050589"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/Meeral/Documents/GitHub/Hackathon2015/FriendZone/app/src/main/res/layout/activity_add_friend.xml -->
+<!-- From: file:/C:/Users/Anthony/Desktop/New%20folder/Hackathon2015/FriendZone/app/src/main/res/layout/activity_add_friend.xml -->
