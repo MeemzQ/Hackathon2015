@@ -19,4 +19,6 @@
     <string name="title_activity_invite">Invite</string>
     <string name="invite">Invite friend</string>
     <string name="unable">Unable to invite:</string>
+    <string name="not_invited"></string>
+    <string name="send_invite">Send invite?</string>
 </resources>
