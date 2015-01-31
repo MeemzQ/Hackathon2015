@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Meeral\AndroidstudioProjects\FriendZone\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
-        <dex dex="C:\Users\Meeral\AndroidstudioProjects\FriendZone\app\build\intermediates\pre-dexed\debug\classes-9c8de966993fefd29bfaad7ee30c1bb765cfa14a.jar" />
-    </item>
-    <item
-        jar="C:\Users\Meeral\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="C:\Users\Owner\Desktop\Programs\School\Java\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\Meeral\AndroidstudioProjects\FriendZone\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-ccf8fd224e8ee1e8a47ae5f216d8a1c7915439bc.jar" />
+        <dex dex="D:\GitHub\Hackathon2015\FriendZone\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e96e467900a0a072b8b0457072a4db7234c58b93.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\Hackathon2015\FriendZone\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="D:\GitHub\Hackathon2015\FriendZone\app\build\intermediates\pre-dexed\debug\classes-d739bb712ca0ef09aa117fc269b9ced798ea5cbb.jar" />
     </item>
 
 </items>
