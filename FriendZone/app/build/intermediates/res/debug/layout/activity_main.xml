@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.friendzone.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#C3F0FF">
+
+    <TextView
+    android:id="@+id/loginTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="14dp"
+    android:textColor="#050589"
+    android:text="@string/find_friends"
+        android:textSize="36sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05" >
+
+        <LinearLayout
+            android:id="@+id/to_find"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:gravity="center_horizontal|center"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_text"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#050589"
+        />
+
+</RelativeLayout><!-- From: file:/C:/Users/Meeral/AndroidstudioProjects/FriendZone/app/src/main/res/layout/activity_main.xml -->
