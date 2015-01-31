@@ -10,8 +10,13 @@
     <string name="title_activity_add_friend">Add_friend</string>
     <string name="choose_friend">Choose from contacts:</string>
     <string name="first_name">First name</string>
-    <string name="last_name">Last name</string>
+    <string name="name">Enter name</string>
     <string name="add_no">Add new number:</string>
     <string name="phone_no">Phone number</string>
     <string name="enter">Enter</string>
+    <string name="title_activity_finding">Finding</string>
+    <string name="finding">Friend Zoning</string>
+    <string name="title_activity_invite">Invite</string>
+    <string name="invite">Invite friend</string>
+    <string name="unable">Unable to invite:</string>
 </resources>

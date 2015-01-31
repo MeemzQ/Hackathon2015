@@ -34,6 +34,14 @@
             android:name=".Add_friend"
             android:label="@string/title_activity_add_friend" >
         </activity>
+        <activity
+            android:name=".Finding"
+            android:label="@string/title_activity_finding" >
+        </activity>
+        <activity
+            android:name=".Invite"
+            android:label="@string/title_activity_invite" >
+        </activity>
     </application>
 
 </manifest>
