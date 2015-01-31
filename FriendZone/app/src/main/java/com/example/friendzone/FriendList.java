@@ -6,7 +6,7 @@ package com.example.friendzone;
 public class FriendList {
     private Friend[] friend_list;
 
-    public addFriend(Friend friend) {
+    public void addFriend(Friend friend) {
         this.friend_list.append(friend);
     }
 }
