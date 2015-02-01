@@ -59,6 +59,30 @@
         android:textColor="#050589"
         android:textSize="28dp" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invite"
+        android:id="@+id/button3"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:textColor="#050589"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:id="@+id/back_invite"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#050589"/>
+
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/Anthony/Desktop/New%20folder/Hackathon2015/FriendZone/app/src/main/res/layout/activity_invite.xml -->
+<!-- From: file:/C:/Users/Meeral/Documents/GitHub/Hackathon2015/FriendZone/app/src/main/res/layout/activity_invite.xml -->
