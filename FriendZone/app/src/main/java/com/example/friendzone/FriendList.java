@@ -2,6 +2,7 @@ package com.example.friendzone;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 import static java.util.Collections.*;
 
@@ -50,6 +51,34 @@ public class FriendList {
     public void setSort_friends(ArrayList<Friend> friends_list) {
         this.sort_friends = friends_list;
     }
+
+    public List<String> sorter(ArrayList<Friend> friends){
+        ArrayList<String> lista = new ArrayList<String>();
+        for(Friend f: friends){
+            lista.add(f.getName());
+        }
+        List<String> sublist = lista.subList(0, lista.size());
+        Collections.sort(sublist);
+        return sublist;
+    }
+    public ArrayList<Friend> fullsort(ArrayList<Friend> lista){
+        List<String> names = sorter(lista);
+        ArrayList<Friend> finals = new ArrayList<Friend>();
+        for(String s: names){
+            for(Friend f: lista){
+                if (s.equals(f.getName())){
+                    finals.add(f);
+                    break;
+                }
+            }
+        }
+        return finals;
+    }
+
+
+
+
+
 
 /*    public ArrayList<Friend> sortList(ArrayList<Friend> part_list){
         return sort(part_list);
