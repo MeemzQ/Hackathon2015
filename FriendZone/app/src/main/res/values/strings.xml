@@ -22,4 +22,5 @@
     <string name="not_invited"></string>
     <string name="send_invite">Send invite?</string>
     <string name="back">Back</string>
+    <string name="cancel_find">cancel_find</string>
 </resources>

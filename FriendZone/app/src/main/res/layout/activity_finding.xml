@@ -25,15 +25,4 @@
         android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title" />
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cancel find"
-        android:id="@+id/Back"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/cancel_find"
-        android:layout_alignEnd="@+id/cancel_find"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#050589"/>
 </RelativeLayout>

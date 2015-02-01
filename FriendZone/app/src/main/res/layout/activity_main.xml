@@ -38,13 +38,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/add_text"
-        android:id="@+id/button"
+        android:id="@+id/button_to_finding"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:textColor="#050589"
+        android:onClick="Find"
         />
 
 </RelativeLayout>
