@@ -17,7 +17,9 @@ from the friend being tracked.
 
 ## Authors:
 
-Meeral Qureshi
-Owen Sawyer
-Wenting Pan
-Anthony Chernyak
+- Meeral Qureshi
+- Owen Sawyer
+- Wenting Pan
+- Anthony Chernyak
+
+Created for UofT Hacks 2015
